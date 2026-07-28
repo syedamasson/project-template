@@ -1,0 +1,26 @@
+.DS_Store
+node_modules
+.env
+.cursor
+
+# Package files
+package-lock.json
+
+# Design system artefacts synced from @bydefaultstudio/design-system on npm install
+assets/css/design-system.css
+assets/icons/icons.svg
+DESIGN.md
+
+# OS files
+Thumbs.db
+
+# Editor files
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Claude Code local settings
+.claude/settings.local.json
