@@ -18,8 +18,8 @@ Do not add new top-level folders without updating this file.
 index.html              → Starter page (replace with project homepage)
 CLAUDE.md               → Claude Code development rules (authoritative)
 README.md               → Project overview and getting started
-PROJECT_BRIEF.md        → Project brief and requirements
-PROJECT_PROGRESS.md     → Progress tracker for ongoing work
+PROJECT-BRIEF.md        → Project brief and requirements
+PROJECT-PROGRESS.md     → Progress tracker for ongoing work
 package.json            → npm manifest: design system dependency + postinstall sync
 scripts/
   sync-design-system.js → Copies the design system CSS from node_modules into assets/css
