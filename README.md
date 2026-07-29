@@ -19,12 +19,12 @@ Open the project in Claude Code and say:
 
 > Set up this project
 
-Claude follows the onboarding flow in `CLAUDE.md`: it runs `npm install` to sync the design system, interviews you to fill in `PROJECT_BRIEF.md`, propagates your project name across the template, applies any known brand tokens to `assets/css/theme.css`, and regenerates the docs site.
+Claude follows the onboarding flow in `CLAUDE.md`: it runs `npm install` to sync the design system, interviews you to fill in `PROJECT-BRIEF.md`, propagates your project name across the template, applies any known brand tokens to `assets/css/theme.css`, and regenerates the docs site.
 
 ### Manual setup
 
 1. Run `npm install` — this syncs the design system CSS from the `@bydefaultstudio/design-system` package into `assets/css/design-system.css`
-2. Review `PROJECT_BRIEF.md` for project goals and requirements
+2. Review `PROJECT-BRIEF.md` for project goals and requirements
 3. Follow the [Setup guide](docs/site/setup.html) to customize brand colors, fonts, and logo
 4. Explore the [Documentation](docs/site/index.html) for template and project guides
 5. Browse the canonical design system docs at [bydefault.design](https://bydefault.design/design-system/what-is-a-design-system.html)
