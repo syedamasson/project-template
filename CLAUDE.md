@@ -242,7 +242,7 @@ These govern every decision — design system or otherwise.
 
 ## 12. Project Onboarding (First Thing)
 
-When this template is used for a new project, the **very first task** is to fill in the project brief. Before writing any code, use the `AskUserQuestion` tool to gather project details and populate `PROJECT_BRIEF.md`.
+When this template is used for a new project, the **very first task** is to fill in the project brief. Before writing any code, use the `AskUserQuestion` tool to gather project details and populate `PROJECT-BRIEF.md`.
 
 **Step 0 — sync the design system (always the latest version).** Before anything else:
 
@@ -282,13 +282,13 @@ Ask questions in batches (max 4 per call) covering:
 
 After gathering answers:
 
-1. Write answers into `PROJECT_BRIEF.md`, replacing all bracketed placeholders
+1. Write answers into `PROJECT-BRIEF.md`, replacing all bracketed placeholders
 2. **Propagate the project name** across the template:
    - `README.md` → replace `[Your Project Name]` in the heading
    - `index.html` → update `<title>` and eyebrow text
    - `templates/page-template.html` → replace `Site Name` in title, OG `og:site_name`, and `yoursite.com` placeholder URLs
    - `docs/docs.config.js` → update `footerText` and `indexDescription`
-   - `PROJECT_BRIEF.md` → add project name at the top
+   - `PROJECT-BRIEF.md` → add project name at the top
 3. Update `assets/css/theme.css` with any known brand tokens — uncomment and edit the primitive overrides (fonts, `--text-accent`, colours)
 4. Run `npm run docs:build` so the docs site picks up the new `docs.config.js` values
 5. Point the user at the remaining Quick Checklist items in `docs/setup.md` (logo, favicons, fonts) for when those assets are available
@@ -328,7 +328,7 @@ Use **TodoWrite** for any multi-step task:
 3. Mark `completed` immediately when done — not before it's proven to work
 4. Add a brief summary of what changed at each major step
 
-TodoWrite is per-session only. Log progress that must survive across sessions in `PROJECT_PROGRESS.md` — dated sections, newest first.
+TodoWrite is per-session only. Log progress that must survive across sessions in `PROJECT-PROGRESS.md` — dated sections, newest first.
 
 ### Verification Before Done
 Never mark a task complete without proving it works:
