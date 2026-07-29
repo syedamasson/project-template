@@ -7,7 +7,7 @@ Track what's been done and what still needs doing across sessions. Add a dated s
 ## Onboarding
 
 - [ ] Run `npm install` (syncs the design system)
-- [ ] Fill in `PROJECT_BRIEF.md`
+- [ ] Fill in `PROJECT-BRIEF.md`
 - [ ] Propagate the project name across the template (see `CLAUDE.md` §12)
 - [ ] Apply brand tokens in `assets/css/theme.css`
 - [ ] Replace logo (`assets/images/logo.svg`) and favicons (`assets/icons/`)
