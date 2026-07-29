@@ -105,7 +105,7 @@ Favicons live in `assets/icons/` and are referenced in each page's `<head>`. The
 
 ## Project Brief
 
-Fill in `PROJECT_BRIEF.md` with your project details:
+Fill in `PROJECT-BRIEF.md` with your project details:
 - Replace all bracketed placeholders `[like this]` with actual content
 - Define project goals, audience, and constraints
 
@@ -149,7 +149,7 @@ This pairs with Dependabot (`.github/dependabot.yml`): when a new design system 
 - [ ] Mirror any dark-mode overrides in both dark blocks of `theme.css`
 - [ ] Replace logo in `assets/images/logo.svg`
 - [ ] Replace favicons in `assets/icons/`
-- [ ] Fill in `PROJECT_BRIEF.md`
+- [ ] Fill in `PROJECT-BRIEF.md`
 - [ ] Review and customize documentation
 
 ---
