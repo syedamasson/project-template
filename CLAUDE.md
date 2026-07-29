@@ -21,7 +21,7 @@ Before generating or modifying code, treat the following as authoritative:
 
 **Local files:**
 
-1. `PROJECT_BRIEF.md` — project intent and constraints
+1. `PROJECT-BRIEF.md` — project intent and constraints
 2. `docs/brand-book.md` — brand identity preview and theming
 3. `docs/seo-best-practices.md` — SEO meta tags and social sharing
 4. `docs/folder-structure.md` — file organization rules
